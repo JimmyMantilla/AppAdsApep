@@ -13,44 +13,117 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      text-align: center;
+      min-height: 100vh;
+      padding: 16px;
     }
     .card {
-      max-width: 420px;
-      padding: 24px;
-      border-radius: 16px;
+      max-width: 520px;
+      width: 100%;
+      padding: 28px;
+      border-radius: 18px;
       background: #020617;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.45);
+    }
+    .logo {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 16px;
+      display: block;
+      border-radius: 16px;
     }
     h1 {
-      margin-bottom: 12px;
+      text-align: center;
+      margin-bottom: 16px;
       font-size: 24px;
     }
+    h2 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
     p {
-      opacity: 0.85;
-      line-height: 1.5;
+      opacity: 0.9;
+      line-height: 1.6;
+      margin: 8px 0;
+    }
+    ul {
+      margin: 8px 0 0 20px;
+      opacity: 0.9;
+    }
+    li {
+      margin-bottom: 6px;
     }
     a {
       color: #38bdf8;
       text-decoration: none;
       font-weight: 600;
     }
+    .footer {
+      margin-top: 24px;
+      font-size: 14px;
+      opacity: 0.6;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <div class="card">
+
+    <img
+      src="https://play-lh.googleusercontent.com/cuy3Kw6IvbFOLNH-fCcResSS5zmzdTIFNXrnBdZ1bcGeIu2G06cpdZJ7AhTQSRf3GVu3"
+      alt="FitApp Logo"
+      class="logo"
+    />
+
     <h1>FitApp Support</h1>
+
     <p>
-      Thank you for using <strong>FitApp</strong>.<br />
-      For support, questions, or purchase issues, contact:
+      Welcome to FitApp Support.
+      If you need help using the app, have questions about features, or want to report a problem, we’re here to help.
+    </p>
+
+    <h2>How to Contact Support</h2>
+    <p>
+      For any support requests, questions, or feedback, please contact us by email:
     </p>
     <p>
-      📧 <a href="mailto:support@fitapp.com">support@fitapp.com</a>
+      📧 <a href="mailto:fitapp@engineer.com">fitapp@engineer.com</a>
     </p>
-    <p style="font-size: 14px; opacity: 0.6;">
-      In-app purchases are managed via Apple In-App Purchase.
+    <p>
+      We aim to respond as quickly as possible and usually reply within 24–48 hours.
     </p>
+
+    <h2>Common Support Topics</h2>
+    <ul>
+      <li>App usage and features</li>
+      <li>Fitness calculators and results</li>
+      <li>In-app purchases and Pro features</li>
+      <li>Account or data questions</li>
+      <li>Bug reports and technical issues</li>
+      <li>Suggestions and feedback</li>
+    </ul>
+
+    <h2>App Information</h2>
+    <p>
+      FitApp is an all-in-one fitness calculator designed to help you track body composition, calories, strength,
+      and overall fitness progress using clear data and easy-to-use tools.
+    </p>
+
+    <h2>Privacy & Data</h2>
+    <p>
+      FitApp respects your privacy. Your data is handled responsibly and used only to provide app functionality
+      and improve the user experience.
+    </p>
+
+    <h2>Feedback</h2>
+    <p>
+      We value your feedback. If you have ideas to improve FitApp or want to request new features, feel free to contact us.
+    </p>
+
+    <div class="footer">
+      Thank you for using FitApp.
+    </div>
+
   </div>
 </body>
 </html>
